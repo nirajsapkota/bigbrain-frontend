@@ -1,0 +1,70 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "add": "^2.0.6",
+    "axios": "^0.21.1",
+    "chart.js": "2.9.4",
+    "classnames": "^2.3.1",
+    "react": "^17.0.1",
+    "react-awesome-loaders": "^0.1.37",
+    "react-chartjs-2": "^2.11.1",
+    "react-countdown": "^2.3.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-toastify": "^7.0.3",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "yarn run component-test && yarn run cypress-test",
+    "component-test": "craco test",
+    "cypress-test": "cypress open",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^9",
+    "cypress": "^7.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^7",
+    "react-test-renderer": "^17.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
